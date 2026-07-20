@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+.menu{
+    background:#F8F5F2;
+    padding:100px 8%;
+    text-align:center;
+}
+
+.menu h4{
+    color:#C67C2E;
+    font-family:"Poppins",sans-serif;
+    margin-bottom:15px;
+}
+
+.menu h2{
+    font-family:"Playfair Display",serif;
+    font-size:50px;
+    color:#222;
+    margin-bottom:60px;
+}
+
+.menu-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:35px;
+}
+
+.menu-card{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    transition:.4s;
+    position:relative;
+}
+
+.menu-card:hover{
+   transform:translateY(-12px) scale(1.02);
+box-shadow:0 18px 45px rgba(0,0,0,.18);
+}
+
+.menu-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.menu-card:hover img{
+    transform:scale(1.08);
+}
+
+.menu-card h3{
+    font-family:"Playfair Display",serif;
+    margin-top:20px;
+}
+
+.menu-card p{
+    color:#C67C2E;
+    font-size:22px;
+    font-weight:600;
+}
+
+.menu-card button{
+    margin:25px 0;
+    padding:14px 28px;
+    border:none;
+    border-radius:30px;
+    background:#C67C2E;
+    color:white;
+    cursor:pointer;
+}
+.rating{
+    color:#F4B400;
+    font-size:18px;
+    margin:10px 0;
+    letter-spacing:2px;
+}
+.badge{
+    position:absolute;
+    top:15px;
+    left:15px;
+    background:#C67C2E;
+    color:white;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:600;
+}
