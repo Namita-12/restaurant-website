@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+
+.reservation{
+    background:#F8F5F2;
+    padding:100px 8%;
+    text-align:center;
+}
+
+.reservation h4{
+    color:#C67C2E;
+    font-family:"Poppins",sans-serif;
+    margin-bottom:15px;
+}
+
+.reservation h2{
+    font-family:"Playfair Display",serif;
+    font-size:48px;
+    margin-bottom:50px;
+    color:#222;
+}
+
+.reservation-form{
+    max-width:700px;
+    margin:auto;
+
+    display:grid;
+    gap:20px;
+}
+
+.reservation-form input,
+.reservation-form select{
+
+    padding:16px;
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    font-size:16px;
+
+    outline:none;
+
+    font-family:"Poppins",sans-serif;
+
+}
+
+.reservation-form input:focus,
+.reservation-form select:focus{
+
+    border-color:#C67C2E;
+
+}
+
+.reservation-form button{
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#C67C2E;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.reservation-form button:hover{
+
+    background:#a96522;
+
+}

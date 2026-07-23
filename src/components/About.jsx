@@ -3,7 +3,7 @@ import galleryImage from "../assets/images/gallery1.jpg";
 
 function About() {
   return (
-    <section className="about" id="about">
+    <section className="about" id="about" data-aos="fade-up">
 
       <div className="about-text">
 
@@ -20,7 +20,7 @@ function About() {
         </h2>
 
         <p>
-          At Foodie's Paradise, we believe that good food brings people together.
+          At Aurelia, we believe that good food brings people together.
           Our chefs craft each dish with love and the finest ingredients to give
           you an unforgettable dining experience.
         </p>

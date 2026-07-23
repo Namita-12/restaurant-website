@@ -18,7 +18,7 @@ const images = [
 
 function Gallery() {
   return (
-    <section className="gallery" id="gallery">
+    <section className="gallery" id="gallery" data-aos="fade-up">
 
       <h4>Our Gallery</h4>
       <h2>Discover Our Restaurant</h2>
@@ -28,8 +28,8 @@ function Gallery() {
           <div className="gallery-item" key={index}>
     <img src={image} alt={`Gallery ${index + 1}`} />
 
-    <div className="overlay">
-        <h3>Foodie's Paradise</h3>
+    <div className="gallery-overlay">
+        <h3>Aurelia</h3>
     </div>
 </div>
         ))}

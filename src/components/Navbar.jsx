@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-         Foodie's Paradise
+        Aurelia
       </div>
 
       <ul className={menuOpen ? "nav-links active" : "nav-links"}>

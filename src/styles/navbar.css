@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +9,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #0f172a;
+  background: white;
 }
-
 .navbar{
     position: fixed;
     top: 0;
@@ -29,14 +31,9 @@ body {
 
     transition:0.4s;
 }
-.navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    transition: 0.4s;
-}
+
 .logo {
-  color:#FFD700;
+  color:#c0c0c094;
   font-size: 1.7rem;
   font-weight: bold;
 }
@@ -48,13 +45,20 @@ body {
 }
 
 .nav-links li {
-  color: white;
-  cursor: pointer;
-  transition: 0.3s;
+  list-style: none;
 }
 
-.nav-links li:hover {
-  color:#FFD166;
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  color: #FFD166;
 }
 
 .menu-icon {
@@ -86,4 +90,22 @@ body {
   .nav-links.active {
     left: 0;
   }
+}
+/* Custom Scrollbar */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#F8F5F2;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#C67C2E;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#9E5B16;
 }

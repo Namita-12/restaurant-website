@@ -25,7 +25,7 @@ const dishes = [
 
 function Menu() {
   return (
-    <section className="menu" id="menu">
+    <section className="menu" id="menu" data-aos="fade-up">
 
       <h4>Our Menu</h4>
 

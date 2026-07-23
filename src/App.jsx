@@ -3,7 +3,11 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import Gallery from "./components/Gallery";
-function App() {
+import Reservation from "./components/Reservation";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
+function App() { 
   return (
     <>
       <Navbar />
@@ -11,6 +15,10 @@ function App() {
       <About />
       <Menu />
       <Gallery />
+      <Reservation />
+      <Contact />
+      <Footer />
+      <BackToTop />
     </>
   );
 }

@@ -8,20 +8,27 @@ function Hero() {
       id="home"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      <div className="overlay">
+      <div className="hero-overlay">
         <div className="hero-content">
-          <h1>Welcome to Foodie's Paradise</h1>
 
-          <p>
-            Experience delicious food, elegant ambiance, and unforgettable
-            dining moments.
+          
+
+          <h1>
+            An Elevated <br />
+            Dining Experience
+          </h1>
+
+          <p className="hero-description">
+            Discover handcrafted dishes made with the finest ingredients,
+            exceptional flavors, and warm hospitality that transforms every
+            meal into an unforgettable experience.
           </p>
 
           <div className="hero-buttons">
-            <button className="btn-primary">Reserve a Table</button>
-
-            <button className="btn-secondary">View Menu</button>
+            <button className="btn-primary">Book Now</button>
+            <button className="btn-secondary">Explore Menu</button>
           </div>
+
         </div>
       </div>
     </section>
